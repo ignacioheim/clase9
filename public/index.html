@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardar productos</title>
+</head>
+<body>
+    <h1>Bienvenidos a nuestra web!</h1>
+    <form method="POST" action="api/productos/guardar">
+        <fieldset>
+            <legend>Datos del producto</legend>
+            Title: <input name="title" type="text">
+            Price: <input name="price" type="text">
+            Thumbnail: <input name="thumbnail" type="url">
+        </fieldset>
+        <input type="submit" value="Guardar producto">
+    </form>
+    
+</body>
+</html>
